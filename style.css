@@ -1,0 +1,125 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: rgb(118, 64, 36);
+  font-family: 'Comfortaa';
+  font-size: 30px;
+  padding-top: 20px;
+  line-height: 0px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(181, 119, 88);
+  font-family: 'Poppins';
+  font-size: 25px;
+}
+
+p {
+  line-height: 3px;
+  font-family: 'Titillium Web'
+}
+
+.header-brown {
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.header-brown img {
+  width: 140px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.card-brown-infos {
+  font-family: 'Titillium Web'
+  line-height: 3px;
+  background-color: #cdaf95;
+  width: 700px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 24px auto;
+  text-align: center;
+  height: 350px;
+}
+
+.card-brown-infos a {
+  color: #764024;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Titillium Web';
+  padding: 5px;
+}
+
+.card-brown-infos a:hover {
+  color: #b57758;
+}
+
+.know-more {
+  padding-top: 25px;
+  font-family: 'Pacifico';
+  font-size: 20px;
+  color: #b57758;
+}
+
+.card-brown-pictures {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card-brown-pictures p {
+  margin-bottom: 40px;
+}
+
+.card-brown-pictures img {
+  display: inline-block;
+}
+
+.social-medias {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline li a {
+  font-size: 24px;
+  margin: 8px 24px;
+  color: #764024;
+}
+
+.list-inline li a:hover {
+  color: #b57758;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-brown-infos {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-brown-infos {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-brown-infos {
+    width: 300px;
+  }
+}
